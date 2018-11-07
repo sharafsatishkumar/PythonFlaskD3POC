@@ -1,6 +1,6 @@
 # PythonFlaskD3POC
 
-Follow below commands to run this application in Python3 \n
+Follow below commands to run this application in Python3
 After cloning the repository go to the cloned folder and run
 $cd PythonFlaskD3POC/
 $python3 -m venv venv
