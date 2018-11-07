@@ -41,4 +41,3 @@ references
 https://www.patricksoftwareblog.com/steps-for-starting-a-new-flask-project-using-python3/
 https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
 http://benalexkeen.com/creating-graphs-using-flask-and-d3/
-
