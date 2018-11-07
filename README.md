@@ -1,20 +1,23 @@
 # PythonFlaskD3POC
 
 Follow below commands to run this application in Python3<br/> 
-After cloning the repository go to the cloned folder and run
+After cloning the repository go to the cloned folder and run<br/> 
+<br/> 
 $cd PythonFlaskD3POC/
+<br/> 
 $python3 -m venv venv
-  This above command created a new directory called ‘venv’ which contains the following items to keep this project isolated from the   other projects on your system:
+<br/> 
+  This above command created a new directory called ‘venv’ which contains the following items to keep this project isolated from the   other projects on your system:<br/> 
 
-  Python interpreter (Python 3.6.3 in this case)
-  Scripts for activating and deactivating the virtual environment
-  To start using the virtual environment that was created, it needs to be activated:
-
+  Python interpreter (Python 3.6.3 in this case)<br/> 
+  Scripts for activating and deactivating the virtual environment<br/> 
+  To start using the virtual environment that was created, it needs to be activated:<br/> 
+<br/> 
 $ source venv/bin/activate
-  You will bash in to virtual env mode
+<br/>   You will bash in to virtual env mode<br/> 
 
 (venv) $
-  After activating the virtual environment, the virtual environment name gets displayed on your command prompt (the ‘(venv)’     at the left of the prompt).
+<br/>   After activating the virtual environment, the virtual environment name gets displayed on your command prompt (the ‘(venv)’     at the left of the prompt).
   Later install required liraries like flask and pandas as below.
 (venv) $ pip install flask
 (venv) $ pip install pandas
