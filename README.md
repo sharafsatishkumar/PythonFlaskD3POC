@@ -17,30 +17,36 @@ $ source venv/bin/activate
 <br/>   You will bash in to virtual env mode<br/> 
 
 (venv) $
-<br/>   After activating the virtual environment, the virtual environment name gets displayed on your command prompt (the ‘(venv)’     at the left of the prompt).
-  Later install required liraries like flask and pandas as below.
+<br/>   After activating the virtual environment, the virtual environment name gets displayed on your command prompt (the ‘(venv)’     at the left of the prompt).<br/> 
+  Later install required liraries like flask and pandas as below.<br/> 
 (venv) $ pip install flask
+<br/> 
 (venv) $ pip install pandas
+<br/> 
 
-Running the Development Server
-In order to check that app.py is working correctly, the Flask development server that comes bundled with the Flask framework is a great way to test out your application.
+Running the Development Server<br/> 
+In order to check that app.py is working correctly, the Flask development server that comes bundled with the Flask framework is a great way to test out your application.<br/> 
 
-First, you need to specify where the Flask application is defined (via the FLASK_APP environment variable). Then, you can run your Flask application with ‘flask run’:
-
+First, you need to specify where the Flask application is defined (via the FLASK_APP environment variable). Then, you can run your Flask application with ‘flask run’:<br/> 
+<br/> 
 (venv) $ export FLASK_APP=app.py
+<br/> 
 (venv) $ flask run
-You will notice the server started and serving your request as below
-    * Serving Flask app "app.py"
-      * Environment: production
-      WARNING: Do not use the development server in a production environment.
-     Use a production WSGI server instead.
-     * Debug mode: off
-    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-  127.0.0.1 - - [07/Nov/2018 10:40:24] "GET /test HTTP/1.1" 200 -
-
-Go to browser and launch the app by URL http://127.0.0.1:5000/test You should see the interactive graph.
-
-references
+<br/> 
+You will notice the server started and serving your request as below<br/> 
+    * Serving Flask app "app.py"<br/> 
+      * Environment: production<br/> 
+      WARNING: Do not use the development server in a production environment.<br/> 
+     Use a production WSGI server instead.<br/> 
+     * Debug mode: off<br/> 
+    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)<br/> 
+  127.0.0.1 - - [07/Nov/2018 10:40:24] "GET /test HTTP/1.1" 200 -<br/> 
+<br/> 
+Go to browser and launch the app by URL http://127.0.0.1:5000/test You should see the interactive graph.<br/> 
+<br/> 
+References<br/> 
 https://www.patricksoftwareblog.com/steps-for-starting-a-new-flask-project-using-python3/
+<br/> 
 https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+<br/> 
 http://benalexkeen.com/creating-graphs-using-flask-and-d3/
