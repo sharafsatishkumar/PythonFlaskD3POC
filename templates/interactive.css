@@ -1,0 +1,28 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.axis {
+  font-size: 13px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  display: none;
+}
+
+.label {
+  font-size: 13px;
+  color: white;
+}
+
+#barchart {
+  float: left;
+  position: relative;
+ }
+
+#linechart {
+  float: left;
+  position: relative;
+ }
