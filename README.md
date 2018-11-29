@@ -23,6 +23,8 @@ $ source venv/bin/activate
 <br/> 
 (venv) $ pip install pandas
 <br/> 
+(venv) $ pip install h2o
+<br/> 
 
 Running the Development Server<br/> 
 In order to check that app.py is working correctly, the Flask development server that comes bundled with the Flask framework is a great way to test out your application.<br/> 
@@ -42,7 +44,7 @@ You will notice the server started and serving your request as below<br/>
     * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)<br/> 
   127.0.0.1 - - [07/Nov/2018 10:40:24] "GET /test HTTP/1.1" 200 -<br/> 
 <br/> 
-Go to browser and launch the app by URL http://127.0.0.1:5000/test You should see the interactive graph.<br/> 
+Go to browser and launch the app by URL http://127.0.0.1:5000/BeerFinder You should see the interactive graph.<br/> 
 <br/> 
 References<br/> 
 https://www.patricksoftwareblog.com/steps-for-starting-a-new-flask-project-using-python3/
